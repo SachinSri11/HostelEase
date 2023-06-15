@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d1"
+        android:layout_width="204dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="#2BEDED"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:id="@+id/textView5"
+
+            android:layout_width="162dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="10dp"
+            android:text="  Hosteller"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="115dp"
+            android:layout_height="129dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:srcCompat="@drawable/img" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d2"
+        android:layout_width="204dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="#2BEDED"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="162dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="10dp"
+            android:text="     Admin"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="115dp"
+            android:layout_height="129dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            app:srcCompat="@drawable/_40_9_admin_roles_icon_iconbunny" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="95dp"
+        android:text="Are You?"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
